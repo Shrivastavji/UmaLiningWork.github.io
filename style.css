@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    position: absolute;
+    left: 20px;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    color:darkblue;
+}
+#navigation{
+    background: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-left: 1090px;
+}
+#navigation ul li{
+    position: relative;
+    display: inline-block;
+    margin: 0 30px;
+}
+#navigation ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+#navigation ul li::after{
+    content:'';
+    height: 2.5px;
+    width:0%;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    transition: 0.5s;
+}
+#navigation ul li:hover:hover::after{
+    width: 100%;
+}
+#imgs1,#imgs2,#imgs3{
+    position: absolute;
+}
+#p1,#p2,#p3{
+    position: absolute;
+}
+#imgs1{
+    top: 120px;
+    left: 470px;
+    border-radius: 15%;
+}
+
+#p1{
+    top: 325px;
+    left: 510px;
+    border-radius: 15%;
+    color:midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#p2{
+    top: 325px;
+    left: 813px;
+    border-radius: 15%;
+    color:midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#p3{
+    top: 580px;
+    left: 700px;
+    border-radius: 15%;
+    color:midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#p4{
+    top: 750px;
+    left: 0px;
+    width: 1519px;
+    height: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255,0.5) ;
+    position: absolute;
+    color:midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+#imgs2{
+    top: 120px;
+    left: 770px;
+    border-radius: 15%;
+}
+#imgs3{
+    top: 370px;
+    left: 630px;
+    border-radius: 15%;
+}
+body{
+    background-color: #dccd78;
+}
+#seat,#seat1,#seat2,#seat3,#seat4{
+    position: absolute;
+}
+#seat{
+   top: 820px;
+}
+#seat1{
+   top: 820px;
+   left: 300px;
+}
+#seat2{
+   top: 820px;
+   left: 600px;
+}
+#seat3{
+   top: 820px;
+   left: 850px;
+}
+#seat4{
+   top: 820px;
+   left: 1200px;
+}
+footer{
+    width: 1519px;
+    height: 135px;
+    background: rgba(255, 255, 255,0.5) ;
+    position: absolute;
+    top: 1080px; 
+}
+#fot{
+    text-align: center;
+}
+#fot1{
+    padding-top: 15px;
+    text-align: center;
+}
+#fot2{
+    padding-top: 15px;
+    text-align: center;
+}
+#fot3{
+    padding-top: 15px;
+    text-align: center;
+}
