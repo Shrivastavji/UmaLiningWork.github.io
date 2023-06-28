@@ -125,7 +125,7 @@ body{
 }
 footer{
     width: 1519px;
-    height: 135px;
+    height: 165px;
     background: rgba(255, 255, 255,0.5) ;
     position: absolute;
     top: 1080px; 
@@ -144,4 +144,70 @@ footer{
 #fot3{
     padding-top: 15px;
     text-align: center;
+}
+@media screen and (max-width:600px) {
+    footer{
+        top: 1640px;
+    }
+    #fot,#fot1,#fot2,#fot3{
+        font-size: 25px;
+        padding-right: 30%;
+    }
+    #navigation{
+        background: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    width: 700px;
+    padding-left: 650px;   
+    }
+    #imgs1{
+        position: absolute;
+        left: 150px;
+    }
+    #imgs2{
+        position: absolute;
+        left: 550px;
+    }
+    #imgs3{
+        position: absolute;
+        left: 350px;
+    }
+    #p1{
+        left: 180px;
+    }
+    #p2{
+        position: relative;
+        display: flex;
+        top: 255px;
+        left: 590px;
+    }
+    #p3{
+        position: relative;
+        display: flex;
+        top: 470px;
+        left: 440px;
+    }
+    #p4{
+        width: 1050px;
+    }
+    #seat{
+        left: 150px;
+    }
+    #seat1{
+        left: 610px;
+    }
+    #seat2{
+        top: 1060px;
+        left: 150px;
+    }
+    #seat3{
+        top: 1060px;
+        left: 610px;
+    }
+    #seat4{
+        top: 1360px;
+        left: 350px;
+    }
 }
